@@ -4,7 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '兰州大学飞升指南',
   description: '由兰大学生共同维护的升学申请与就业经验手册',
-  base: '/lzu-guide/',
+  base: '/',
   cleanUrls: true,
   lastUpdated: true,
   head: [

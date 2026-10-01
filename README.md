@@ -6,7 +6,7 @@
 
 - 短，容易记忆和输入
 - 能概括升学申请、就业与相关专项经验，又不会被某一种去向限制
-- 对应的 GitHub Pages 地址清晰：`https://<用户名>.github.io/lzu-guide/`
+- 对应的 GitHub Pages 地址清晰：`https://lzu-guide.github.io/`
 
 ## 本地预览
 
@@ -41,7 +41,7 @@ docs/
 
 仓库创建并推送后，在 GitHub 仓库的 **Settings → Pages** 中将 Source 设为 **GitHub Actions**。此后推送到 `main` 分支会自动构建并发布。
 
-若最终仓库名不是 `lzu-guide`，请同步修改 `docs/.vitepress/config.mts` 中的 `base`。
+当前站点作为组织主页发布，仓库名为 `lzu-guide.github.io`，因此 `docs/.vitepress/config.mts` 中的 `base` 保持为 `/`。
 
 ## 内容原则
 
