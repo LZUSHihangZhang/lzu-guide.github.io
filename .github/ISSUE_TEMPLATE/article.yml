@@ -1,0 +1,41 @@
+name: 经验投稿
+description: 提交一篇经验文章或文章提纲
+title: "[投稿] "
+labels: ["投稿"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢分享。请先移除学号、电话、私人聊天记录等敏感信息。
+  - type: dropdown
+    id: section
+    attributes:
+      label: 投稿栏目
+      options:
+        - 保研与考研
+        - 留学申请
+        - 就业求职
+        - 专项经验
+        - 个人经验
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景与适用范围
+      description: 可匿名；请说明年级、专业方向、时间范围等有助于理解经验的信息。
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: 正文或文章链接
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 授权确认
+      options:
+        - label: 我确认内容为原创或已取得授权，并同意维护者为排版和隐私保护作必要编辑。
+          required: true
