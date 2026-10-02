@@ -8,4 +8,4 @@ title: 物理科学与技术学院
 
 ## 保研与考研
 
-- 2026 · 保研（直博） · [理论物理（计算方向）推免经验](/experience/2026-physics-theory-baoyan-zhibo)
+- 2026 · 保研（直博） · [理论物理（计算方向）推免经验](./2026-10-01-baoyan-cn-23-ucas-phd)
